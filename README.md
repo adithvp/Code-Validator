@@ -56,7 +56,7 @@ Set `GOOGLE_API_KEY` in `backend/.env`.
 Start backend:
 
 ```bash
-uvicorn app:app --reload --host 0.0.0.0 --port 8000
+uvicorn app:app --reload --hostport
 ```
 
 ## API
@@ -104,7 +104,7 @@ cd "c:\Users\adith\Downloads\code\Code Validator\backend"
 
 .\.venv\Scripts\Activate.ps1
 
-uvicorn app:app --reload --host 127.0.0.1 --port 8000
+uvicorn app:app --reload --host port
 ----------------------------------------------------
 First-time setup:
 
@@ -124,7 +124,7 @@ copy .env.example .env
 Then edit backend\.env and set your GOOGLE_API_KEY.
 ------------------------------------------
 frontend :
-cd "c:\Users\adith\Downloads\code\Code Validator\frontend"
+cd ":\code\Code Validator\frontend"
 
 npm install
 
